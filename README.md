@@ -1,14 +1,15 @@
-Neural Translation with mT5
+*Machine Translation with mT5*
 This project involves training a multilingual sequence-to-sequence (seq2seq) neural network for language translation using the mT5 model from Hugging Face's transformers library. The dataset used is the ALT dataset, which includes translations in multiple languages.
 
-Table of Contents
+*Table of Contents
 Introduction
 Installation
 Usage
 Training
 Evaluation
 Saving the Model
-Acknowledgements
+Acknowledgements*
+
 Introduction
 The goal of this project is to create a neural translation model that can translate between multiple languages. The model is based on the mT5 transformer architecture, which is designed for multilingual text generation tasks. The project includes data loading and preprocessing, model training, evaluation, and saving the trained model.
 
