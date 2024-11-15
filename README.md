@@ -32,3 +32,21 @@ You can install the dependencies by running:
 
 ```bash
 pip install -r requirements.txt
+Usage
+Dataset Preparation
+The project uses the ALT dataset. Ensure that the dataset is correctly loaded and split into training and testing sets.
+
+Tokenizer and Model Initialization
+Initialize the tokenizer and model, adding special tokens for each language.
+
+Training
+The training loop involves encoding the inputs and targets, creating data generators, and training the model with checkpoints. The optimizer and learning rate scheduler are also set up to manage the training process.
+
+Evaluation
+Evaluate the model on the test dataset to determine its performance. This involves running the model on unseen data and calculating the loss.
+
+Saving the Model
+After training, save the trained model to a specified path for future use.
+
+Acknowledgements
+This project uses the mT5 model from Hugging Face's transformers library. The dataset used is the ALT dataset. Special thanks to the developers and maintainers of these resources.
